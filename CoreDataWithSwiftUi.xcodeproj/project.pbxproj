@@ -11,8 +11,11 @@
 		93BE81EC2A74DB2C00435D32 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BE81EB2A74DB2C00435D32 /* ContentView.swift */; };
 		93BE81EE2A74DB2E00435D32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93BE81ED2A74DB2E00435D32 /* Assets.xcassets */; };
 		93BE81F12A74DB2E00435D32 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93BE81F02A74DB2E00435D32 /* Preview Assets.xcassets */; };
-		93BE81F32A74DB2E00435D32 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BE81F22A74DB2E00435D32 /* Persistence.swift */; };
 		93BE81F62A74DB2E00435D32 /* CoreDataWithSwiftUi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 93BE81F42A74DB2E00435D32 /* CoreDataWithSwiftUi.xcdatamodeld */; };
+		93BE81FD2A74DB9200435D32 /* AddProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BE81FC2A74DB9200435D32 /* AddProductView.swift */; };
+		93BE81FF2A74DBB700435D32 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BE81FE2A74DBB700435D32 /* RatingView.swift */; };
+		93BE82012A74DBD500435D32 /* ProductDetailVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BE82002A74DBD500435D32 /* ProductDetailVIew.swift */; };
+		93BE82032A74DBF000435D32 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BE82022A74DBF000435D32 /* DataController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,8 +24,11 @@
 		93BE81EB2A74DB2C00435D32 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		93BE81ED2A74DB2E00435D32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		93BE81F02A74DB2E00435D32 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		93BE81F22A74DB2E00435D32 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		93BE81F52A74DB2E00435D32 /* CoreDataWithSwiftUi.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataWithSwiftUi.xcdatamodel; sourceTree = "<group>"; };
+		93BE81FC2A74DB9200435D32 /* AddProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProductView.swift; sourceTree = "<group>"; };
+		93BE81FE2A74DBB700435D32 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		93BE82002A74DBD500435D32 /* ProductDetailVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailVIew.swift; sourceTree = "<group>"; };
+		93BE82022A74DBF000435D32 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +64,12 @@
 				93BE81E92A74DB2C00435D32 /* CoreDataWithSwiftUiApp.swift */,
 				93BE81EB2A74DB2C00435D32 /* ContentView.swift */,
 				93BE81ED2A74DB2E00435D32 /* Assets.xcassets */,
-				93BE81F22A74DB2E00435D32 /* Persistence.swift */,
 				93BE81F42A74DB2E00435D32 /* CoreDataWithSwiftUi.xcdatamodeld */,
 				93BE81EF2A74DB2E00435D32 /* Preview Content */,
+				93BE81FC2A74DB9200435D32 /* AddProductView.swift */,
+				93BE81FE2A74DBB700435D32 /* RatingView.swift */,
+				93BE82002A74DBD500435D32 /* ProductDetailVIew.swift */,
+				93BE82022A74DBF000435D32 /* DataController.swift */,
 			);
 			path = CoreDataWithSwiftUi;
 			sourceTree = "<group>";
@@ -144,9 +153,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				93BE81F62A74DB2E00435D32 /* CoreDataWithSwiftUi.xcdatamodeld in Sources */,
-				93BE81F32A74DB2E00435D32 /* Persistence.swift in Sources */,
 				93BE81EC2A74DB2C00435D32 /* ContentView.swift in Sources */,
+				93BE81FF2A74DBB700435D32 /* RatingView.swift in Sources */,
+				93BE82012A74DBD500435D32 /* ProductDetailVIew.swift in Sources */,
+				93BE82032A74DBF000435D32 /* DataController.swift in Sources */,
 				93BE81EA2A74DB2C00435D32 /* CoreDataWithSwiftUiApp.swift in Sources */,
+				93BE81FD2A74DB9200435D32 /* AddProductView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

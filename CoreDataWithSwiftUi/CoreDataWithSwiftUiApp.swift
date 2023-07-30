@@ -2,19 +2,18 @@
 //  CoreDataWithSwiftUiApp.swift
 //  CoreDataWithSwiftUi
 //
-//  Created by Roro Solutions LLP on 29/07/23.
+//  Created by Gaurav Tak on 29/07/23.
 //
 
 import SwiftUI
 
 @main
 struct CoreDataWithSwiftUiApp: App {
-    let persistenceController = PersistenceController.shared
-
+   @StateObject private var dataController = DataController()
     var body: some Scene {
         WindowGroup {
             ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+                .environment(\.managedObjectContext, dataController.container.viewContext)
         }
     }
 }
